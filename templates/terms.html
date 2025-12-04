@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | DrinkFresh</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { brand: { orange: '#FF8800', dark: '#1A1A1A', green: '#2F855A', light: '#FFFBF0' } },
+                    fontFamily: { sans: ['Outfit', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light text-brand-dark antialiased flex flex-col min-h-screen">
+    <nav class="w-full z-50 bg-white/80 backdrop-blur-md border-b border-orange-100/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="/" class="flex items-center cursor-pointer group">
+                    <span class="text-2xl font-extrabold tracking-tighter group-hover:opacity-80 transition">DRINK<span class="text-brand-orange">FRESH</span></span>
+                    <div class="w-2 h-2 bg-brand-green rounded-full ml-1 mb-2"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-4xl">
+        <h1 class="text-4xl font-extrabold mb-8">Terms of Service</h1>
+        <div class="prose prose-lg text-gray-600">
+            <p>Last updated: January 01, 2025</p>
+            <p>Please read these terms and conditions carefully before using Our Service.</p>
+            <h2>Interpretation and Definitions</h2>
+            <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+            <h2>Acknowledgment</h2>
+            <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
+            <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.</p>
+            <h2>Contact Us</h2>
+            <p>If you have any questions about these Terms and Conditions, You can contact us by email: hello@drinkfresh.shop</p>
+        </div>
+    </main>
+
+    <footer class="mt-auto bg-gray-50 border-t border-gray-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            &copy; 2025 <a href="https://azerosolutions.tech" target="_blank" class="hover:text-brand-orange transition">AZero Solutions</a>. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
